@@ -1,4 +1,4 @@
-# List all recipes
+# List all recipes (you just called this)
 default:
     @just --list
 # Build Client and server binaries
