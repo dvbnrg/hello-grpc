@@ -1,8 +1,7 @@
 # List all recipes (you just called this)
-default:
-    @just --list
+default: dev
 # run a local dev build
-dev: build run clean
+dev: build run
 # Build Macro
 build: protoc compile
 # Build Client and server binaries
