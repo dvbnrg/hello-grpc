@@ -1,4 +1,4 @@
-module sgrpc
+module hello-grpc
 
 go 1.19
 
