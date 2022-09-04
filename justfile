@@ -10,6 +10,9 @@ test:
 # Run Local versions of binaries
 run:
     echo "run called"
-
+# Build protoc artifacts
 protoc:
     protoc --go-grpc_out=proto proto/hello.proto
+# Clean all build artifacts
+clean:
+    rm proto/*.pb.go
