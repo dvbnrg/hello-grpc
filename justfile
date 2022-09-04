@@ -10,3 +10,6 @@ test:
 # Run Local versions of binaries
 run:
     echo "run called"
+
+protoc:
+    protoc --go-grpc_out=proto proto/hello.proto
